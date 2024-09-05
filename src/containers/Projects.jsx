@@ -47,6 +47,7 @@ function Projects() {
                 ))}
             </div>
         </div>
+        <hr></hr>
     </div>
   )
 }
