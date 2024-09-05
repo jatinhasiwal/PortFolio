@@ -32,7 +32,7 @@ function Projects() {
             <h1 className="text-3xl font-bold mb-5">Projects</h1>
             <div className='grid grid-cols-1 md:grid-cols-4 gap-7 my-3'>
                {
-                ProjctItems.map(({id, projectLogo, projectName}) => (
+                ProjctItems.map(({id, projectLogo, projectName,projectDiscpt}) => (
                     <div className='md:w-[300px] md:[300px] w-80 ml-9 md:ml-0 border-[2px] rounded-lg p-1 shadow-lg cursor-pointer hover:scale-110 duration-300' key={id}>
                         <img src={projectLogo} className='w-[400px] h-[150px] p-1 rounded-lg border-[2px]' alt="" />
                         <div>
