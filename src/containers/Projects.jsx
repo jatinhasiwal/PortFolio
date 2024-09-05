@@ -46,8 +46,8 @@ function Projects() {
                     </div>
                 ))}
             </div>
+            <hr></hr>
         </div>
-        <hr></hr>
     </div>
   )
 }
