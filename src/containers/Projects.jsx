@@ -8,20 +8,20 @@ function Projects() {
             id:1,
             projectLogo: foodimg,
             projectName: "Food Ordering website",
-            projectDiscpt: ""
+            projectDiscpt: "The online food ordering system brings everything to one place, from efficient web & mobile app ordering and delivery to POS and inventory."
         },
         {
             id:2,
             projectLogo: aidetectimg,
             projectName: "AI Object Detection System",
-            projectDiscpt: ""
+            projectDiscpt: "It is an instance of artificial intelligence that consists of training computers to see as humans do, specifically by recognizing and classifying objects according to semantic categories."
 
         },
         { 
              id:3,
             projectLogo: obyswebimg,
             projectName: "Obys Agency Clone",
-            projectDiscpt: ""
+            projectDiscpt: "Obys Agency is famous for their animated websites."
         },
     ]
   return (
