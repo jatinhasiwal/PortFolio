@@ -7,18 +7,21 @@ function Projects() {
         {
             id:1,
             projectLogo: foodimg,
-            projectName: "Food Ordering website"
+            projectName: "Food Ordering website",
+            projectDiscpt: ""
         },
         {
             id:2,
             projectLogo: aidetectimg,
-            projectName: "AI Object Detection System"
+            projectName: "AI Object Detection System",
+            projectDiscpt: ""
 
         },
         { 
              id:3,
             projectLogo: obyswebimg,
-            projectName: "Obys Agency Clone"
+            projectName: "Obys Agency Clone",
+            projectDiscpt: ""
         },
     ]
   return (
@@ -34,7 +37,7 @@ function Projects() {
                         <img src={projectLogo} className='w-[400px] h-[150px] p-1 rounded-lg border-[2px]' alt="" />
                         <div>
                             <div className='px-2 font-bold text-xl mb-2 mt-1'>{projectName}</div>
-                            <p className='px-2 font-semibold'>food ordering website is a full stack website.</p>
+                            <p className='px-2 font-semibold'>{projectDiscpt}</p>
                         </div>
                         <div className='px-6 py-4 space-x-3 justify-around'>
                             <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'>Link</button>
