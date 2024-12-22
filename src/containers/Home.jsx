@@ -8,8 +8,8 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa6";
 import { ReactTyped,Typed } from "react-typed";
-import pic from "../../public/jatinimg.jpg"
-import resume from "../assets/My Resume (2).pdf"
+import pic from "../../public/jatini1.png"
+import resume from "../assets/Jatin_s_Resume (1).pdf"
 function Home() {
   return (
     <>
