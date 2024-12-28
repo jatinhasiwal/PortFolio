@@ -9,21 +9,18 @@ function Projects() {
             id: 1,
             projectLogo: bookstore,
             projectName: "Book-Store Website",
-            projectDiscpt: "User Authentication: Implemented secure user login and registration using JWT (JSON Web Tokens) for token-based authentication. Shopping Cart: Built a dynamic shopping cart system allowing users to add/remove books, modify quantities, and proceed to checkout.",
             projectLink: "https://jbookstore.netlify.app/",
         },
         {
             id: 2,
             projectLogo: aidetectimg,
             projectName: "AI Object Detection System",
-            projectDiscpt: "It is an instance of artificial intelligence that consists of training computers to see as humans do, specifically by recognizing and classifying objects according to semantic categories.",
             projectLink: "https://jatinhasiwal1.netlify.app/",
         },
         {
             id: 3,
             projectLogo: obyswebimg,
             projectName: "Obys Agency Clone",
-            projectDiscpt: "Obys Agency is famous for their animated websites.",
             projectLink: "https://jatinhasiwal1.netlify.app/",
         },
     ];
@@ -36,7 +33,7 @@ function Projects() {
             <div>
                 <h1 className="text-3xl font-bold mb-5">Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-7 my-3">
-                    {ProjectItems.map(({ id, projectLogo, projectName, projectDiscpt, projectLink }) => (
+                    {ProjectItems.map(({ id, projectLogo, projectName, projectLink }) => (
                         <div
                             className="md:w-[300px] w-80 ml-9 md:ml-0 border-2 rounded-lg p-1 shadow-lg cursor-pointer hover:scale-110 duration-300"
                             key={id}
@@ -48,7 +45,6 @@ function Projects() {
                             />
                             <div>
                                 <div className="px-2 font-bold text-xl mb-2 mt-1">{projectName}</div>
-                                <p className="px-2 font-semibold">{projectDiscpt}</p>
                             </div>
                             <div className="px-6 py-4 space-x-3 justify-around">
                                 <button
