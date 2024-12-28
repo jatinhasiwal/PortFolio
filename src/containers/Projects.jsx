@@ -15,14 +15,16 @@ function Projects() {
             id:2,
             projectLogo: aidetectimg,
             projectName: "AI Object Detection System",
-            projectDiscpt: "It is an instance of artificial intelligence that consists of training computers to see as humans do, specifically by recognizing and classifying objects according to semantic categories."
+            projectDiscpt: "It is an instance of artificial intelligence that consists of training computers to see as humans do, specifically by recognizing and classifying objects according to semantic categories.",
+            projectLink: "https://jatinhasiwal1.netlify.app/"
 
         },
         { 
              id:3,
             projectLogo: obyswebimg,
             projectName: "Obys Agency Clone",
-            projectDiscpt: "Obys Agency is famous for their animated websites."
+            projectDiscpt: "Obys Agency is famous for their animated websites.",
+            projectLink: "https://jatinhasiwal1.netlify.app/"
         },
     ]
   return (
