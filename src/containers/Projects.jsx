@@ -51,7 +51,7 @@ function Projects() {
                                     onClick={() => window.open(projectLink, "_blank")}
                                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
                                 >
-                                    View Project
+                                    Link
                                 </button>
                                 <button
                                     onClick={() => alert('Source code not available yet!')}
