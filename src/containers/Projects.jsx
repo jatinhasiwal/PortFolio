@@ -46,7 +46,7 @@ function Projects() {
                             <div>
                                 <div className="px-2 font-bold text-xl mb-2 mt-1">{projectName}</div>
                             </div>
-                            <div className="px-6 py-4 space-x-3 justify-around">
+                            <div className="px-6 py-4 space-x-3 flex justify-around">
                                 <button
                                     onClick={() => window.open(projectLink, "_blank")}
                                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
