@@ -41,7 +41,7 @@ function Projects() {
                             <p className='px-2 font-semibold'>{projectDiscpt}</p>
                         </div>
                         <div className='px-6 py-4 space-x-3 justify-around'>
-                            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'>{projectLink}</button>
+                            <button  onClick = {projectLink} className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'>Link</button>
                             <button className='bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded' >Source code</button>
                         </div>
                     </div>
