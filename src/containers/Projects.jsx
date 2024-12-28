@@ -1,12 +1,12 @@
 import React from 'react'
-import foodimg from "../../public/food web logo.png"
+import bookstore from "../../public/book-store.png"
 import aidetectimg from "../../public/image-detection.jpg"
 import obyswebimg from "../../public/obys agency.jpeg"
 function Projects() {
     const ProjctItems = [
         {
             id:1,
-            projectLogo: foodimg,
+            projectLogo: bookstore,
             projectName: "Book-Store Website",
             projectDiscpt: "User Authentication: Implemented secure user login and registration using JWT (JSON Web Tokens) for token-based authentication. Shopping Cart: Built a dynamic shopping cart system allowing users to add/remove books, modify quantities, and proceed to checkout.",
             projectLink: "https://jbookstore.netlify.app/"
